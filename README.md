@@ -1,5 +1,7 @@
 # PurpleCat Next Store
 
+[PurpleCat Next Store](https://purplecat-next-store.vercel.app)
+
 ### shadcn
 
 [shadcn](https://ui.shadcn.com/)
@@ -47,12 +49,11 @@ npx prisma format
 
 ```
 
-### npm
-
-[](https://)
+### Clerk
+[Clerk Next.js](https://clerk.com/docs/quickstarts/nextjs)
 
 ```
-npm i use-debounce
+npm install @clerk/nextjs
 
 
 ```

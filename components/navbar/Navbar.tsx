@@ -14,7 +14,7 @@ const Navbar = () => {
         <Suspense>
           <NavSearch />
         </Suspense>
-        <div className=''>
+        <div className='flex items-center gap-4'>
           <CartButton />
           <DarkMode />
           <LinksDropdown />
