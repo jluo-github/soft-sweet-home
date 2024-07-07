@@ -33,13 +33,6 @@ export default function RootLayout({
           <Providers>
             <Navbar />
             <Container className='py-20'>
-              {" "}
-              {/* <SignedOut>
-                <SignInButton />
-              </SignedOut>
-              <SignedIn>
-                <UserButton />
-              </SignedIn> */}
               {children}
             </Container>
           </Providers>

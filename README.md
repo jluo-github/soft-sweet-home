@@ -50,6 +50,7 @@ npx prisma format
 ```
 
 ### Clerk
+
 [Clerk Next.js](https://clerk.com/docs/quickstarts/nextjs)
 
 ```
@@ -58,12 +59,49 @@ npm install @clerk/nextjs
 
 ```
 
-### npm
+### Faker Library
 
-[](https://)
+[Docs](https://fakerjs.dev/guide/)
+
+```
+npm install @faker-js/faker --save-dev
+
 
 ```
 
+### zod
+
+[Docs](https://zod.dev/?id=basic-usage)
+
+```
+npm install zod
+
+```
+
+### Supabase
+
+```
+npm install @supabase/supabase-js
+
+```
+
+### npm
+
+```
+
+
+```
+
+### npm
+
+```
+
+
+```
+
+### npm
+
+```
 
 
 ```

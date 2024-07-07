@@ -14,8 +14,12 @@ import SignOutLink from "./SignOutLink";
 import { SignInButton, SignUpButton, SignedIn, SignedOut } from "@clerk/nextjs";
 
 import { links, type NavLink } from "@/utils/links";
+import { auth } from "@clerk/nextjs/server";
 
 const LinksDropdown = () => {
+  const { userId } = auth();
+  const isAdmin = userId === process.env.ADMIN_USER_ID;
+
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
@@ -42,13 +46,17 @@ const LinksDropdown = () => {
         {/* link */}
         {/* signed in */}
         <SignedIn>
-          {links.map((link: NavLink) => (
-            <DropdownMenuItem key={link.href}>
-              <Link href={link.href} className='capitalize w-full'>
-                {link.label}
-              </Link>
-            </DropdownMenuItem>
-          ))}
+          {links.map((link: NavLink) => {
+            // hide dashboard link if not admin
+            if (link.label === "dashboard" && !isAdmin) return null;
+            return (
+              <DropdownMenuItem key={link.href}>
+                <Link href={link.href} className='capitalize w-full'>
+                  {link.label}
+                </Link>
+              </DropdownMenuItem>
+            );
+          })}
 
           <DropdownMenuSeparator />
           <DropdownMenuItem>
