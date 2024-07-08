@@ -42,9 +42,10 @@ npx prisma init
 
 npx prisma migrate dev --name init
 npx prisma db push
+npx prisma format
 
 npx prisma studio
-npx prisma format
+
 
 
 ```
@@ -85,10 +86,12 @@ npm install @supabase/supabase-js
 
 ```
 
-### npm
+### React Share
+
+[React Share](https://www.npmjs.com/package/react-share)
 
 ```
-
+npm i react-share
 
 ```
 

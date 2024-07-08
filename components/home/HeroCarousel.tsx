@@ -7,12 +7,12 @@ import {
 } from "@/components/ui/carousel";
 import { Card, CardContent } from "@/components/ui/card";
 import Image from "next/image";
-import hero0 from "@/public/images/hero0.png";
-import hero1 from "@/public/images/hero1.png";
-import hero2 from "@/public/images/hero2.png";
-import hero3 from "@/public/images/hero3.png";
+import hero4 from "@/images/hero4.png";
+import hero1 from "@/images/hero1.png";
+import hero2 from "@/images/hero2.png";
+import hero3 from "@/images/hero3.png";
 
-const carouselImages = [hero1, hero2, hero3, hero0];
+const carouselImages = [hero1, hero2, hero3, hero4];
 
 const HeroCarousel = () => {
   return (
