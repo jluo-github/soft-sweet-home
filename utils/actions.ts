@@ -249,14 +249,12 @@ export const toggleFavoriteAction = async (prevState: {
         },
       });
     }
-
     revalidatePath(pathname);
-
     return {
       message: favoriteId ? "Removed from Favorites" : "Added to Favorites",
     };
   } catch (error) {
-    handleErrorMsg(error);
+    return handleErrorMsg(error);
   }
 };
 
@@ -390,3 +388,27 @@ export const findExistingReview = async (userId: string, productId: string) => {
     },
   });
 };
+
+// fetch cart items:
+export const fetchCartItems = async () => {};
+
+// fetch product:
+const fetchProduct = async () => {};
+
+// fetch Or CreateCart
+export const fetchOrCreateCart = async () => {};
+
+// update or create cart item:
+const updateOrCreateCartItem = async () => {};
+
+// update cart:
+export const updateCart = async () => {};
+
+// add to cart:
+export const addToCartAction = async () => {};
+
+// remove cart item:
+export const removeCartItemAction = async () => {};
+
+// update cart item:
+export const updateCartItemAction = async () => {};
