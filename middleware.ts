@@ -5,8 +5,6 @@ const isPublicRoute = createRouteMatcher(["/", "/products(.*)", "/about"]);
 const isAdminRoute = createRouteMatcher(["/admin(.*)"]);
 
 export default clerkMiddleware((auth, req) => {
-  // console.log("userid: ", auth().userId);
-
   const isAdminUser = auth().userId === process.env.ADMIN_USER_ID;
 
   if (isAdminRoute(req) && !isAdminUser) {

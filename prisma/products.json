@@ -4,80 +4,80 @@
     "company": "Comfort Creations",
     "description": "This cozy sofa from Comfort Creations offers the perfect blend of comfort and style. Upholstered in soft, durable fabric, it features plush cushions and a sturdy frame, making it a great addition to any living room.",
     "featured": true,
-    "image": "/images/hero0.png",
+    "image": "https://buwjpgjnequfdxtpgjwt.supabase.co/storage/v1/object/public/main-bucket//users/1720421990379-Designer%20(46).png",
     "price": 499.99,
     "clerkId": "clerkId"
+  },
+  {
+    "name": "Elegant Dining Table",
+    "company": "Home Elegance",
+    "description": "The Elegant Dining Table by Home Elegance is a sophisticated piece that brings a touch of class to your dining area. Crafted from high-quality wood with a sleek finish, it comfortably seats six and is perfect for both casual and formal dining.",
+    "featured": true,
+    "image": "https://buwjpgjnequfdxtpgjwt.supabase.co/storage/v1/object/public/main-bucket//users/1720421946877-Designer%20(94).png",
+    "price": 799.99,
+    "clerkId": "clerkId"
+  },
+  {
+    "name": "Royal King Bed",
+    "company": "Sleep Haven",
+    "description": "Experience luxury and comfort with the Royal King Bed from Sleep Haven. This bed features an intricately designed headboard, a sturdy wooden frame, and a plush upholstered finish. It's the perfect addition to any master bedroom for a regal touch.",
+    "featured": true,
+    "image": "https://buwjpgjnequfdxtpgjwt.supabase.co/storage/v1/object/public/main-bucket//users/1720421920159-Designer%20(44).png",
+    "price": 1299.99,
+    "clerkId": "clerkId"
+  },
+  {
+    "name": "Rustic Coffee Table",
+    "company": "Country Charm",
+    "description": "Add a touch of rustic charm to your living room with the Rustic Coffee Table from Country Charm. Crafted from reclaimed wood with a distressed finish, it features a spacious top and a bottom shelf for storage, making it both stylish and functional.",
+    "featured": true,
+    "image": "https://buwjpgjnequfdxtpgjwt.supabase.co/storage/v1/object/public/main-bucket//users/1720421865360-Designer%20(84).png",
+    "price": 299.99,
+    "clerkId": "clerkId"
+  },
+  {
+    "name": "Coastal Cottage Bed",
+    "company": "Beachside Furniture",
+    "description": "Bring a touch of coastal charm to your bedroom with the Coastal Cottage Bed from Beachside Furniture. This bed frame is crafted from durable materials and features a distressed finish, evoking a relaxed, beachy vibe. It’s perfect for a cottage-style home.",
+    "featured": true,
+    "image": "https://buwjpgjnequfdxtpgjwt.supabase.co/storage/v1/object/public/main-bucket//users/1720421816370-Designer%20(75).png",
+    "price": 799.99,
+    "clerkId": "clerkId"
+  },
+  {
+    "name": "Vintage Canopy Bed",
+    "company": "Heritage Homes",
+    "description": "The Vintage Canopy Bed from Heritage Homes offers a timeless elegance that enhances any bedroom decor. Featuring a classic four-poster design with intricate detailing, this bed is constructed from high-quality wood and finished with a luxurious stain.",
+    "featured": true,
+    "image": "https://buwjpgjnequfdxtpgjwt.supabase.co/storage/v1/object/public/main-bucket//users/1720421769534-Designer%20(76).png",
+    "price": 1199.99,
+    "clerkId": "clerkId"
+  },
+  {
+    "name": "Luxury Upholstered Bed",
+    "company": "Elite Interiors",
+    "description": "The Luxury Upholstered Bed by Elite Interiors offers a perfect blend of comfort and sophistication. Featuring a plush, button-tufted headboard and a solid frame upholstered in premium fabric, this bed provides a lavish retreat for restful nights.",
+    "featured": true,
+    "image": "https://buwjpgjnequfdxtpgjwt.supabase.co/storage/v1/object/public/main-bucket//users/1720421715840-Designer%20(43).png",
+    "price": 399.99,
+    "clerkId": "clerkId"
+  },
+  {
+    "name": "Scandinavian Bed Frame",
+    "company": "Nordic Living",
+    "description": "Embrace minimalist design with the Scandinavian Bed Frame from Nordic Living. This bed features clean lines, a low-profile structure, and natural wood finishes, perfect for creating a serene and uncluttered bedroom environment.",
+    "featured": true,
+    "image": "https://buwjpgjnequfdxtpgjwt.supabase.co/storage/v1/object/public/main-bucket//users/1720421627925-hero1.png",
+    "price": 799.99,
+    "clerkId": "clerkId"
+  },
+  {
+    "name": "Cozy Throw Blanket",
+    "company": "Warm & Cozy",
+    "description": "Stay warm and cozy with the Cozy Throw Blanket from Warm & Cozy. Made from soft, plush fabric, it features a classic design with fringe detailing, making it a stylish and functional addition to your living room or bedroom.",
+    "featured": true,
+    "image": "https://buwjpgjnequfdxtpgjwt.supabase.co/storage/v1/object/public/main-bucket//users/1720421594205-hero0.png",
+    "price": 199.99,
+    "clerkId": "clerkId"
   }
-  // {
-  //   "name": "Elegant Dining Table",
-  //   "company": "Home Elegance",
-  //   "description": "The Elegant Dining Table by Home Elegance is a sophisticated piece that brings a touch of class to your dining area. Crafted from high-quality wood with a sleek finish, it comfortably seats six and is perfect for both casual and formal dining.",
-  //   "featured": true,
-  //   "image": "@/images/hero0.png",
-  //   "price": 799.99,
-  //   "clerkId": "clerkId"
-  // },
-  // {
-  //   "name": "Royal King Bed",
-  //   "company": "Sleep Haven",
-  //   "description": "Experience luxury and comfort with the Royal King Bed from Sleep Haven. This bed features an intricately designed headboard, a sturdy wooden frame, and a plush upholstered finish. It's the perfect addition to any master bedroom for a regal touch.",
-  //   "featured": true,
-  //   "image": "@/images/hero0.png",
-  //   "price": 1299.99,
-  //   "clerkId": "clerkId"
-  // },
-  // {
-  //   "name": "Rustic Coffee Table",
-  //   "company": "Country Charm",
-  //   "description": "Add a touch of rustic charm to your living room with the Rustic Coffee Table from Country Charm. Crafted from reclaimed wood with a distressed finish, it features a spacious top and a bottom shelf for storage, making it both stylish and functional.",
-  //   "featured": true,
-  //   "image": "@/images/hero0.png",
-  //   "price": 299.99,
-  //   "clerkId": "clerkId"
-  // },
-  // {
-  //   "name": "Coastal Cottage Bed",
-  //   "company": "Beachside Furniture",
-  //   "description": "Bring a touch of coastal charm to your bedroom with the Coastal Cottage Bed from Beachside Furniture. This bed frame is crafted from durable materials and features a distressed finish, evoking a relaxed, beachy vibe. It’s perfect for a cottage-style home.",
-  //   "featured": true,
-  //   "image": "@/images/hero0.png",
-  //   "price": 799.99,
-  //   "clerkId": "clerkId"
-  // },
-  // {
-  //   "name": "Vintage Canopy Bed",
-  //   "company": "Heritage Homes",
-  //   "description": "The Vintage Canopy Bed from Heritage Homes offers a timeless elegance that enhances any bedroom decor. Featuring a classic four-poster design with intricate detailing, this bed is constructed from high-quality wood and finished with a luxurious stain.",
-  //   "featured": true,
-  //   "image": "@/images/hero0.png",
-  //   "price": 1199.99,
-  //   "clerkId": "clerkId"
-  // },
-  // {
-  //   "name": "Luxury Upholstered Bed",
-  //   "company": "Elite Interiors",
-  //   "description": "The Luxury Upholstered Bed by Elite Interiors offers a perfect blend of comfort and sophistication. Featuring a plush, button-tufted headboard and a solid frame upholstered in premium fabric, this bed provides a lavish retreat for restful nights.",
-  //   "featured": true,
-  //   "image": "@/images/hero0.png",
-  //   "price": 399.99,
-  //   "clerkId": "clerkId"
-  // },
-  // {
-  //   "name": "Scandinavian Bed Frame",
-  //   "company": "Nordic Living",
-  //   "description": "Embrace minimalist design with the Scandinavian Bed Frame from Nordic Living. This bed features clean lines, a low-profile structure, and natural wood finishes, perfect for creating a serene and uncluttered bedroom environment.",
-  //   "featured": true,
-  //   "image": "@/images/hero0.png",
-  //   "price": 799.99,
-  //   "clerkId": "clerkId"
-  // },
-  // {
-  //   "name": "Cozy Throw Blanket",
-  //   "company": "Warm & Cozy",
-  //   "description": "Stay warm and cozy with the Cozy Throw Blanket from Warm & Cozy. Made from soft, plush fabric, it features a classic design with fringe detailing, making it a stylish and functional addition to your living room or bedroom.",
-  //   "featured": true,
-  //   "image": "@/images/hero0.png",
-  //   "price": 199.99,
-  //   "clerkId": "clerkId"
-  // }
 ]

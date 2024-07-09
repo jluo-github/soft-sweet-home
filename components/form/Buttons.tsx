@@ -82,6 +82,17 @@ export const FavoriteButton = ({ isFavorite }: { isFavorite: boolean }) => {
   );
 };
 
+// product sign in button
+export const ProductSignInButton = () => {
+  return (
+    <SignInButton mode='modal'>
+      <Button type='button' size='default' className='mt-8'>
+        Please Sign In
+      </Button>
+    </SignInButton>
+  );
+};
+
 //  button
 const Buttons = ({
   className = "",
