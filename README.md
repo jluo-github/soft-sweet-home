@@ -1,6 +1,16 @@
 # PurpleCat Next Store
 
-[PurpleCat Next Store](https://purplecat-next-store.vercel.app)
+Please visit [PurpleCat Next Store](https://purplecat-next-store.vercel.app) for details.
+
+## Skills and Tools Used
+
+- **React:** Used for building the frontend of the website.
+- **Next.js:** Used for server-side rendering and routing.
+- **Shadcn-ui:** Implemented for designing and developing UI components.
+- **Prisma/Supabase:** Used for database operations and data modeling.
+- **Clerk:** Integrated for authentication and user management.
+- **Stripe:** Used for handling payments and financial transactions.
+- **React-share:** Used for adding social media sharing buttons.
 
 ### shadcn
 
@@ -43,10 +53,7 @@ npx prisma init
 npx prisma migrate dev --name init
 
 npx prisma format
-
 npx prisma studio
-
-
 
 ```
 
@@ -57,7 +64,6 @@ npx prisma studio
 ```
 npm install @clerk/nextjs
 
-
 ```
 
 ### Faker Library
@@ -66,7 +72,6 @@ npm install @clerk/nextjs
 
 ```
 npm install @faker-js/faker --save-dev
-
 
 ```
 
@@ -95,16 +100,11 @@ npm i react-share
 
 ```
 
-### npm
+### Stripe
+
+[Embedded Form](https://docs.stripe.com/checkout/embedded/quickstart)
 
 ```
-
-
-```
-
-### npm
-
-```
-
+npm install --save @stripe/react-stripe-js @stripe/stripe-js stripe axios
 
 ```
