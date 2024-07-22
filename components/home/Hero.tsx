@@ -10,13 +10,15 @@ const Hero = () => {
           Soft & Sweet Home
         </h1>
         <p className='mt-8 max-w-xl text-lg leading-8 text-muted-foreground'>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt
-          minus, minima aperiam officia sequi dolore delectus quibusdam
-          perferendis laborum quasi vel repellat voluptatem architecto illum
-          quidem ad natus deleniti quaerat consequatur asperiores ullam aliquid.
-          Voluptatem recusandae dicta quaerat praesentium. Aliquam molestias
-          omnis asperiores laudantium. Nam maiores expedita assumenda magni
-          nihil.
+          Welcome to Soft & Sweet Home, where elegance meets comfort. Our
+          curated selection of high-class furniture and luxurious bedding
+          transforms your home into a haven of style and serenity. Explore our
+          exquisite collections, each piece designed with meticulous attention
+          to detail and crafted from the finest materials. Elevate your living
+          spaces with our sophisticated and timeless designs that promise both
+          beauty and functionality. Experience the ultimate in home decor and
+          comfort with Soft & Sweet Home, your destination for creating a
+          perfect sanctuary.
         </p>
         <Button asChild size='lg' className='mt-10'>
           <Link href='/products'>Our Products</Link>
