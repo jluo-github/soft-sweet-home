@@ -10,10 +10,12 @@ const Navbar = () => {
   return (
     <nav className='border-b'>
       <Container className='flex flex-col sm:flex-row  sm:justify-between sm:items-center flex-wrap gap-4 py-8'>
-        <Logo />
-        <Suspense>
-          <NavSearch />
-        </Suspense>
+        <div className='flex gap-x-2 sm:w-2/3 sm:flex-row sm:justify-between sm:items-center '>
+          <Logo />
+          <Suspense>
+            <NavSearch />
+          </Suspense>
+        </div>
         <div className='flex items-center gap-4'>
           <CartButton />
           <DarkMode />

@@ -15,6 +15,7 @@ import { SignInButton, SignUpButton, SignedIn, SignedOut } from "@clerk/nextjs";
 
 import { links, type NavLink } from "@/utils/links";
 import { auth } from "@clerk/nextjs/server";
+import { link } from "fs";
 
 const LinksDropdown = () => {
   const { userId } = auth();
@@ -31,12 +32,27 @@ const LinksDropdown = () => {
       <DropdownMenuContent className='w-40' align='start' sideOffset={10}>
         {/* signed out */}
         <SignedOut>
+          <DropdownMenuItem key='home'>
+            <Link href='/' className='capitalize w-full'>
+              Home
+            </Link>
+          </DropdownMenuItem>{" "}
+          <DropdownMenuItem key='home'>
+            <Link href='/products' className='capitalize w-full'>
+              Products
+            </Link>
+          </DropdownMenuItem>
+          <DropdownMenuItem key='home'>
+            <Link href='/about' className='capitalize w-full'>
+              About
+            </Link>
+          </DropdownMenuItem>
+          <DropdownMenuSeparator />
           <DropdownMenuItem>
             <SignInButton mode='modal'>
               <button className='w-full text-left'>Login</button>
             </SignInButton>
           </DropdownMenuItem>
-          <DropdownMenuSeparator />
           <DropdownMenuItem>
             <SignUpButton mode='modal'>
               <button className='w-full text-left'>Register</button>
