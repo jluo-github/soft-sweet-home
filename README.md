@@ -1,16 +1,17 @@
-# PurpleCat Next Store
+## PurpleCat Soft & Sweet Home
 
-Please visit [PurpleCat Next Store](https://purplecat-next-store.vercel.app) for details.
+Please visit [PurpleCat Soft & Sweet Home](https://purplecat-next-store.vercel.app) for details.
 
 ## Skills and Tools Used
 
-- **React:** Used for building the frontend of the website.
 - **Next.js:** Used for server-side rendering and routing.
+- **React:** Used for building the frontend of the website.
+- **TypeScript:** Added for type safety and improving code quality.
 - **Shadcn-ui:** Implemented for designing and developing UI components.
 - **Prisma/Supabase:** Used for database operations and data modeling.
+- **Zod:** Used for schema validation and type-safe data parsing.
 - **Clerk:** Integrated for authentication and user management.
 - **Stripe:** Used for handling payments and financial transactions.
-- **React-share:** Used for adding social media sharing buttons.
 - **GitHub Actions:** Utilized for automating CI/CD workflows.
 
 ### shadcn
