@@ -18,23 +18,6 @@ jobs:
           node-version: "20" # Ensure this matches your project's Node.js version
 
       - name: Install dependencies
-        run: npm install
-
-      - name: Ping Supabase to keep it active
-        env:
-          DATABASE_URL: ${{ secrets.DATABASE_URL }}
-
-        run: |
-          node -e "
-            const db = require('../../utils/db');
-            (async () => {
-              try {
-                await db.product.findMany();
-                console.log('Supabase accessed successfully');
-              } catch (err) {
-                console.error('Error accessing Supabase:', err);
-              } finally {
-                await db.$disconnect();
-              }
-            })();
-          "
+        run: npm ci
+      - name: Ping Supabase
+        run: curl -X GET https://purplecat-next-store.vercel.app/api/supabase
