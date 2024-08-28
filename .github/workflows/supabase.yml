@@ -1,0 +1,40 @@
+name: Keep Supabase Active
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # Runs once a day at midnight
+  workflow_dispatch:
+
+jobs:
+  keep-alive:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Install Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20" # Ensure this matches your project's Node.js version
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Ping Supabase to keep it active
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+
+        run: |
+          node -e "
+            const db = require('./utils/db').default;
+            (async () => {
+              try {
+                await db.product.findMany();
+                console.log('Supabase accessed successfully');
+              } catch (err) {
+                console.error('Error accessing Supabase:', err);
+              } finally {
+                await db.$disconnect();
+              }
+            })();
+          "
