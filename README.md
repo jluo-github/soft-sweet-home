@@ -11,6 +11,7 @@ Please visit [PurpleCat Next Store](https://purplecat-next-store.vercel.app) for
 - **Clerk:** Integrated for authentication and user management.
 - **Stripe:** Used for handling payments and financial transactions.
 - **React-share:** Used for adding social media sharing buttons.
+- **GitHub Actions:** Utilized for automating CI/CD workflows.
 
 ### shadcn
 
