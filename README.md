@@ -1,6 +1,6 @@
-## PurpleCat Soft & Sweet Home
+## Soft & Sweet Home
 
-Please visit [PurpleCat Soft & Sweet Home](https://purplecat-next-store.vercel.app) for details.
+Please visit [Soft & Sweet Home](https://purplecat-next-store.vercel.app) for details.
 
 ## Skills and Tools Used
 
