@@ -21,9 +21,9 @@ Please visit [Soft & Sweet Home](https://soft-sweet-home.vercel.app) for details
 [shadcn Dark Mode Docs](https://ui.shadcn.com/docs/dark-mode/next)
 
 ```
-npx shadcn-ui@latest init
+npx shadcn@latest init
 
-npx shadcn-ui@latest add button breadcrumb card checkbox dropdown-menu input label popover select separator table textarea toast skeleton carousel
+npx shadcn@latest add button breadcrumb card checkbox dropdown-menu input label popover select separator table textarea toast skeleton carousel
 
 npm install next-themes
 
