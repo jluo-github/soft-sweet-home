@@ -12,6 +12,7 @@ Please visit [Soft & Sweet Home](https://soft-sweet-home.vercel.app) for details
 - **Zod:** Used for schema validation and type-safe data parsing.
 - **Clerk:** Integrated for authentication and user management.
 - **Stripe:** Used for handling payments and financial transactions.
+- **Jest:** Utilized for unit testing.
 - **GitHub Actions:** Utilized for automating CI/CD workflows.
 
 ### shadcn
@@ -110,3 +111,17 @@ npm i react-share
 npm install --save @stripe/react-stripe-js @stripe/stripe-js stripe axios
 
 ```
+
+ 
+### jest
+
+```
+ npm install -D jest jest-environment-jsdom @testing-library/react @testing-library/dom @testing-library/jest-dom ts-node @testing-library/user-event ts-jest @types/jest jest-fixed-jsdom
+
+npm init jest@latest
+
+npm i -D msw whatwg-fetch
+
+```
+
+
