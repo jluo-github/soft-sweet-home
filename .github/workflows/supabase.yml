@@ -11,17 +11,22 @@ on:
 jobs:
   ping_supabase:
     runs-on: ubuntu-latest
+    
     steps:
-      - name: Checkout code
+      - name: Checkout Repository
         uses: actions/checkout@v4
-      - name: Install Node.js
+
+      - name: Set Up Node.js
         uses: actions/setup-node@v4
         with:
           node-version: "20"
           cache: "npm"
+
       - name: Install dependencies
         run: npm ci
-      - name: Run tests
+
+      - name: Run Tests
         run: npm test
+
       - name: Ping Supabase
-        run: curl -X POST https://soft-sweet-home.vercel.app/api/supabase
+        run: curl --fail -X POST https://soft-sweet-home.vercel.app/api/supabase
